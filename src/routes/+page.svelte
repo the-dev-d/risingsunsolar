@@ -1,53 +1,12 @@
 <script>
 	import { Sun, Shield, Leaf, Phone } from '@lucide/svelte';
 	import Button from '$lib/shadcn/ui/button/button.svelte';
+	import Hero from '$lib/components/hero.svelte';
 </script>
 
 <main>
 	<!-- HERO -->
-
-	<section class="relative h-screen max-h-200">
-		<div class="absolute inset-0">
-			<img src="/images/solarHero.jpg" alt="Solar panels" class="h-full w-full object-cover" />
-			<div class="absolute inset-0 bg-linear-to-r from-white/70 to-transparent"></div>
-			<div class="absolute inset-0 bg-linear-to-t from-white/70 to-transparent"></div>
-		</div>
-		<!-- Content -->
-		<div class="relative mx-auto flex max-w-7xl flex-col px-6 py-32 text-center md:text-left h-full">
-			<div class="h-1 flex-1"></div>
-			<div>
-				<div
-					class="mb-6 flex w-fit items-center gap-2 rounded-full bg-buttons-muted px-3 py-1 text-sm font-medium text-text-green"
-				>
-					<Leaf class="h-4 w-4" /> Sustainable Energy Solutions
-				</div>
-
-				<h1 class="mb-6 text-4xl font-black sm:text-5xl lg:text-6xl">
-					Power Your Future <br />
-					with <span class="text-text-green">Clean Energy</span>
-				</h1>
-
-				<p class="mb-8 max-w-xl text-lg text-text-green sm:text-xl">
-					Premium solar panels with industry-leading efficiency. Save up to 70% on your energy
-					bills.
-				</p>
-
-				<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-					<button
-						class="rounded-lg bg-buttons-default px-6 py-3 font-semibold text-white shadow transition"
-					>
-						Start Saving Today →
-					</button>
-					<button
-						class="rounded-lg border border-buttons-default bg-white px-6 py-3 font-semibold text-text-green transition"
-					>
-						View Solutions
-					</button>
-				</div>
-			</div>
-		</div>
-	</section>
-
+	<Hero />
 	<!-- SERVICES -->
 	<section class="relative overflow-hidden py-24">
 		<div class="relativ mx-auto max-w-7xl px-6 text-center">

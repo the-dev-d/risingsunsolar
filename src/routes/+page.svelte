@@ -2,127 +2,128 @@
 	import { Sun, Shield, Leaf, Phone } from '@lucide/svelte';
 	import Button from '$lib/shadcn/ui/button/button.svelte';
 	import Hero from '$lib/components/hero.svelte';
+	import About from '$lib/components/about.svelte';
 </script>
 
 <main>
 	<!-- HERO -->
 	<Hero />
 	<!-- SERVICES -->
-	<section class="relative overflow-hidden py-24">
-		<div class="relativ mx-auto max-w-7xl px-6 text-center">
-			<span class="text-sm font-semibold tracking-widest uppercase"> Our Services </span>
+	<section class="relativ relative mx-auto w-full max-w-7xl overflow-hidden px-6 py-24 text-center">
+		<span class="text-sm font-semibold tracking-widest uppercase"> Our Services </span>
 
-			<div class="relative my-6 flex items-center gap-6">
-				<span
-					class="hidden h-px flex-1
+		<div class="relative my-6 flex items-center gap-6">
+			<span
+				class="hidden h-px flex-1
          bg-gradient-to-l from-buttons-default to-transparent md:block"
-				>
-				</span>
+			>
+			</span>
 
-				<h2 class="text-5xl font-black">
-					Complete Energy & <br /> Security Solutions
-				</h2>
+			<h2 class="text-5xl font-black">
+				Complete Energy & <br /> Security Solutions
+			</h2>
 
-				<span
-					class=" hidden h-px flex-1
+			<span
+				class=" hidden h-px flex-1
          bg-gradient-to-r from-buttons-default to-transparent md:block"
+			>
+			</span>
+		</div>
+
+		<p class="mx-auto max-w-xl">
+			Everything you need to power, protect, and sustain your home or business under one roof.
+		</p>
+
+		<div class="mt-16 grid gap-8 text-left text-text-green md:grid-cols-3">
+			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
+				<div
+					class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-orange/24 text-buttons-orange"
 				>
-				</span>
+					<Sun />
+				</div>
+
+				<h3 class="text-lg font-semibold text-black">Solar Panels</h3>
+
+				<p class="mt-3 text-sm">
+					High-efficiency photovoltaic systems designed for maximum energy capture. Reduce your
+					electricity bills by up to 70%.
+				</p>
+
+				<ul class="mt-4 space-y-2 text-sm">
+					<li>• Monocrystalline Technology</li>
+					<li>• 25-Year Performance Warranty</li>
+					<li>• Smart Monitoring App</li>
+				</ul>
+
+				<a
+					href="#"
+					class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-text-green transition-all hover:gap-3"
+				>
+					Learn More →
+				</a>
 			</div>
 
-			<p class="mx-auto max-w-xl">
-				Everything you need to power, protect, and sustain your home or business under one roof.
-			</p>
-
-			<div class="mt-16 grid gap-8 text-left text-text-green md:grid-cols-3">
-				<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
-					<div
-						class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-orange/24 text-buttons-orange"
-					>
-						<Sun />
-					</div>
-
-					<h3 class="text-lg font-semibold text-black">Solar Panels</h3>
-
-					<p class="mt-3 text-sm">
-						High-efficiency photovoltaic systems designed for maximum energy capture. Reduce your
-						electricity bills by up to 70%.
-					</p>
-
-					<ul class="mt-4 space-y-2 text-sm">
-						<li>• Monocrystalline Technology</li>
-						<li>• 25-Year Performance Warranty</li>
-						<li>• Smart Monitoring App</li>
-					</ul>
-
-					<a
-						href="#"
-						class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-text-green transition-all hover:gap-3"
-					>
-						Learn More →
-					</a>
+			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
+				<div
+					class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-grey text-white"
+				>
+					<Shield />
 				</div>
 
-				<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
-					<div
-						class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-grey text-white"
-					>
-						<Shield />
-					</div>
+				<h3 class="text-lg font-semibold text-black">Security Systems</h3>
 
-					<h3 class="text-lg font-semibold text-black">Security Systems</h3>
+				<p class="mt-3 text-sm">
+					Advanced electronic security powered by renewable energy. Cameras, sensors, and monitoring
+					with eco-conscious design.
+				</p>
 
-					<p class="mt-3 text-sm">
-						Advanced electronic security powered by renewable energy. Cameras, sensors, and
-						monitoring with eco-conscious design.
-					</p>
+				<ul class="mt-4 space-y-2 text-sm">
+					<li>• 24/7 Monitoring</li>
+					<li>• Solar-Powered Options</li>
+					<li>• Mobile App Control</li>
+				</ul>
 
-					<ul class="mt-4 space-y-2 text-sm">
-						<li>• 24/7 Monitoring</li>
-						<li>• Solar-Powered Options</li>
-						<li>• Mobile App Control</li>
-					</ul>
+				<a
+					href="#"
+					class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-text-green transition-all hover:gap-3"
+				>
+					Learn More →
+				</a>
+			</div>
 
-					<a
-						href="#"
-						class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-text-green transition-all hover:gap-3"
-					>
-						Learn More →
-					</a>
+			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
+				<div
+					class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-muted text-text-green"
+				>
+					<Leaf />
 				</div>
 
-				<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
-					<div
-						class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-muted text-text-green"
-					>
-						<Leaf />
-					</div>
+				<h3 class="text-lg font-semibold text-black">Eco Equipment</h3>
 
-					<h3 class="text-lg font-semibold text-black">Eco Equipment</h3>
+				<p class="mt-3 text-sm">
+					Sustainable home automation and energy management solutions. Smart thermostats, LED
+					systems, and efficient appliances.
+				</p>
 
-					<p class="mt-3 text-sm">
-						Sustainable home automation and energy management solutions. Smart thermostats, LED
-						systems, and efficient appliances.
-					</p>
+				<ul class="mt-4 space-y-2 text-sm">
+					<li>• Energy-Efficient Devices</li>
+					<li>• Smart Home Integration</li>
+					<li>• Carbon Footprint Tracking</li>
+				</ul>
 
-					<ul class="mt-4 space-y-2 text-sm">
-						<li>• Energy-Efficient Devices</li>
-						<li>• Smart Home Integration</li>
-						<li>• Carbon Footprint Tracking</li>
-					</ul>
-
-					<a
-						href="#"
-						class="mt-6 inline-flex items-center gap-2 text-sm font-medium transition-all hover:gap-3"
-					>
-						Learn More →
-					</a>
-				</div>
+				<a
+					href="#"
+					class="mt-6 inline-flex items-center gap-2 text-sm font-medium transition-all hover:gap-3"
+				>
+					Learn More →
+				</a>
 			</div>
 		</div>
 	</section>
+	<!-- ABOUT -->
+	<About />
 	<!-- CTA -->
-	<section class="relative bg-linear-to-l from-buttons-orange/16 to-transparent py-28">
+	<section class="relative bg-linear-to-l from-buttons-orange/16 to-transparent py-10">
 		<div class="relative mx-auto max-w-5xl px-6 text-center">
 			<p class="mb-6 text-sm">Get Started Today</p>
 
@@ -149,7 +150,7 @@
 
 			<div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
 				<Button
-					class="hover:bg-buttons-green order-2 border-buttons-whatsapp bg-buttons-whatsapp text-base font-bold hover:scale-105"
+					class="hover:bg-buttons-green border border-buttons-whatsapp bg-buttons-whatsapp text-base font-bold hover:scale-105"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +163,7 @@
 					>WhatsApp Us</Button
 				>
 				<Button
-					class=" border-2 border-buttons-default bg-transparent text-base font-bold text-text-green hover:scale-105 hover:bg-transparent"
+					class=" border border-buttons-default bg-transparent text-base font-bold text-text-green hover:scale-105 hover:bg-transparent"
 				>
 					<Phone />
 					Call Us Now</Button

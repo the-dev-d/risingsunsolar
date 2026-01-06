@@ -1,15 +1,15 @@
 <script>
 	import { Sun, Shield, Leaf, Phone } from '@lucide/svelte';
 	import Button from '$lib/shadcn/ui/button/button.svelte';
-	import Hero from '$lib/components/hero.svelte';
-	import About from '$lib/components/about.svelte';
+	import Hero from '$lib/components/home/hero.svelte';
+	import About from '$lib/components/home/about.svelte';
 </script>
 
 <main>
 	<!-- HERO -->
 	<Hero />
 	<!-- SERVICES -->
-	<section class="relativ relative mx-auto w-full max-w-7xl overflow-hidden px-6 py-24 text-center">
+	<section class="relative mx-auto w-full max-w-7xl overflow-hidden px-6 py-24 text-center">
 		<span class="text-sm font-semibold tracking-widest uppercase"> Our Services </span>
 
 		<div class="relative my-6 flex items-center gap-6">

@@ -5,8 +5,8 @@
 </script>
 
 <div class="flex gap-4">
-	<div class="flex h-10 w-10 items-center justify-center rounded-full border border-buttons-orange">
-		<svelte:component this={icon} class="h-5 w-5 text-buttons-orange" />
+	<div class="flex h-fit items-center justify-center rounded-full border border-buttons-orange p-2">
+		<svelte:component this={icon} class="h-5 w-5 text-buttons-orange " />
 	</div>
 
 	<div>

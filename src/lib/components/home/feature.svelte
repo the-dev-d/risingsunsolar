@@ -10,7 +10,7 @@
 	</div>
 
 	<div>
-		<h4 class="font-semibold">{title}</h4>
+		<h4 class="text-base font-semibold">{title}</h4>
 		<p class="text-sm text-muted-foreground">{text}</p>
 	</div>
 </div>

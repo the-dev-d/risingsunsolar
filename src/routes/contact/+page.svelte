@@ -15,26 +15,26 @@
 
 <section class="py-20">
 	<!-- HEADER -->
-	<div class="mx-auto w-full bg-linear-to-l from-buttons-default/16 to-transparent px-14 py-16">
-		<div class="mx-auto w-full max-w-7xl">
+	<div class="mx-auto w-full bg-linear-to-l from-buttons-default/16 to-transparent py-16">
+		<div class="mx-auto w-full max-w-7xl px-8">
 			<div
 				class="mb-6 flex w-fit items-center gap-2 rounded-full bg-buttons-muted px-3 py-1 text-sm font-semibold text-text-green"
 			>
 				Get In Touch
 			</div>
 
-			<h2 class="mb-4 text-5xl font-black">
+			<h2 class="mb-4 text-3xl font-black md:text-5xl">
 				Let's Start Your <span class="text-text-green">Project</span>
 			</h2>
 
-			<p class="text-text-green">
+			<p class="text-sm text-text-green md:text-base">
 				Have a question or ready to get started? Reach out to us through any of the channels below.
 				We're here to help!
 			</p>
 		</div>
 	</div>
 
-	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 py-10 lg:grid-cols-2">
+	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-6 py-8 lg:grid-cols-2 lg:gap-10">
 		<!-- LEFT: CONTACT INFO -->
 		<Card class="border-none bg-transparent shadow-none">
 			<CardHeader>
@@ -87,7 +87,7 @@
 				</div>
 
 				<!-- WhatsApp CTA -->
-				<div class="mt-6 rounded-2xl bg-[#25D366]/32 p-5">
+				<div class="mt-8 rounded-2xl bg-[#25D366]/32 p-5">
 					<h4 class="mb-1 font-semibold">Quick Response via WhatsApp</h4>
 					<p class="mb-4 text-sm text-muted-foreground">
 						Get an instant response from our team. We typically reply within minutes!
@@ -143,7 +143,7 @@
 				<CardTitle class="text-xl">Our Location</CardTitle>
 			</CardHeader>
 
-			<CardContent class="space-y-4">
+			<CardContent class="space-y-8">
 				<!-- Map -->
 				<div class="overflow-hidden rounded-2xl border">
 					<iframe

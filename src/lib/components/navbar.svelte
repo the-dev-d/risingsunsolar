@@ -1,12 +1,20 @@
 <script>
 	import Button from '$lib/shadcn/ui/button/button.svelte';
+	import { Menu, X } from '@lucide/svelte';
+
+	let open = false;
+
+	const toggle = () => (open = !open);
 </script>
 
-<nav class=" fixed top-0 z-50 mx-auto w-full bg-white/40 shadow-xs backdrop-blur-md" data-aos="fade-down">
+<nav
+	class=" fixed top-0 z-50 mx-auto w-full bg-white/40 shadow-xs backdrop-blur-md"
+	data-aos="fade-down"
+>
 	<div class="mx-auto flex h-fit max-w-7xl items-center justify-between px-6 py-2">
-		<div class="flex h-16 items-center">
+		<a class="flex h-16 items-center" href="/">
 			<img src="/images/logo.png" alt="logo" class="h-full w-auto object-contain" />
-		</div>
+		</a>
 
 		<div class="hidden items-center gap-8 md:flex">
 			<a href="/services" class=" text-sm text-text-green transition-colors"> Services </a>
@@ -16,7 +24,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Button class="font-semi-bold hover:bg-buttons-green bg-buttons-default hover:scale-105">
+			<Button class="hover:bg-buttons-green hidden bg-buttons-default hover:scale-105 md:flex">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 640 640"
@@ -28,6 +36,60 @@
 					/></svg
 				>Get Quotes</Button
 			>
+			<button
+				class="rounded-lg p-2 hover:bg-black/5 md:hidden"
+				on:click={toggle}
+				aria-label="Toggle menu"
+			>
+				{#if open}
+					<X class="h-6 w-6" />
+				{:else}
+					<Menu class="h-6 w-6" />
+				{/if}
+			</button>
 		</div>
 	</div>
 </nav>
+
+<!-- Overlay -->
+{#if open}
+	<div class="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm" on:click={() => (open = false)} />
+{/if}
+
+<!-- Slide Menu -->
+<aside
+	id="sidemenu"
+	class="fixed top-0 left-0 z-50 h-full w-full
+  transform bg-white transition-all duration-300 ease-in-out
+  {open ? 'translate-y-0' : '-translate-y-full'}"
+>
+	<div class="flex h-full flex-col px-6 py-3">
+		<div class="mb-8 flex items-center justify-between">
+			<a class="flex h-16 items-center" href="/">
+				<img src="/images/logo.png" alt="logo" class="h-full w-auto object-contain" />
+			</a>
+			<button on:click={() => (open = false)}>
+				<X class="h-6 w-6" />
+			</button>
+		</div>
+
+		<nav class="flex flex-col gap-6 text-lg text-text-green">
+			<a href="/services" on:click={() => (open = false)}>Services</a>
+			<a href="#features" on:click={() => (open = false)}>Features</a>
+			<a href="/about" on:click={() => (open = false)}>About</a>
+			<a href="/contact" on:click={() => (open = false)}>Contact</a>
+		</nav>
+
+		<div class="mt-auto pt-6">
+			<Button class="hover:bg-buttons-green w-full bg-buttons-default">Get Quotes</Button>
+		</div>
+	</div>
+</aside>
+
+<style>
+	#sidemenu {
+		background-image: url('/images/texture.avif');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+</style>

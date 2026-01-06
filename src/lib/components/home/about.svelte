@@ -7,9 +7,9 @@
 	import { Check, Zap, Shield, Wrench, Clock, Headphones, BadgeCheck } from '@lucide/svelte';
 </script>
 
-<section class="relative mx-auto max-w-7xl px-6 py-24">
+<section class="relative mx-auto max-w-7xl px-8 py-20 md:py-24">
 	<div class="container mx-auto grid items-center gap-16 lg:grid-cols-2">
-		<div class="relative flex h-128 w-full flex-col p-10" data-aos="fade-up">
+		<div class="relative flex h-92 md:h-128 w-full flex-col p-6 md:p-10" data-aos="fade-up">
 			<img
 				src="/images/solarDisplay.jpg"
 				alt="Solar panels"
@@ -21,7 +21,7 @@
 					<span>Energy Generated</span>
 					<Badge variant="secondary" class="text-text-green">+12.5%</Badge>
 				</div>
-				<div class="text-2xl font-semibold">24,580 kWh</div>
+				<div class="text-xl md:text-2xl font-semibold">24,580 kWh</div>
 				<Progress value={70} />
 			</Card>
 			<div class="flex-1"></div>
@@ -33,14 +33,14 @@
 
 					<div>
 						<p class="text-sm text-muted-foreground">CO₂ Emissions Saved</p>
-						<p class="text-lg font-semibold">12.4 Tons</p>
+						<p class="md:text-lg font-semibold">12.4 Tons</p>
 					</div>
 				</div>
 			</Card>
 		</div>
 
 		<div data-aos="fade-up">
-			<div class="mb-3 flex items-center gap-6 text-sm font-semibold tracking-widest uppercase">
+			<div class="mb-3 flex items-center gap-6 text-sm font-medium tracking-widest uppercase">
 				Why choose us
 				<span
 					class="block h-px
@@ -49,12 +49,12 @@
 				</span>
 			</div>
 
-			<h2 class="mb-4 text-4xl leading-tight font-bold">
+			<h2 class="mb-4 text-3xl md:text-5xl leading-tight font-bold">
 				Trusted by Thousands <br />
 				for Sustainable Living
 			</h2>
 
-			<p class="mb-10 max-w-xl text-muted-foreground">
+			<p class="mb-10 max-w-xl text-sm md:text-base text-muted-foreground">
 				We combine cutting-edge technology with exceptional service to deliver solutions that make a
 				real difference for your wallet and the planet.
 			</p>

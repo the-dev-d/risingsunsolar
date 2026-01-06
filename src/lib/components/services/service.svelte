@@ -11,7 +11,7 @@
 	export let reverse = false;
 </script>
 
-<section class="py-16">
+<section class="py-10 md:py-16">
 	<div
 		class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 lg:grid-cols-2"
 		class:lg:flex-row-reverse={reverse}

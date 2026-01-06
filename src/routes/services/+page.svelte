@@ -5,21 +5,21 @@
 </script>
 
 <section class="relative w-full overflow-hidden py-20">
-	<div class="mx-auto flex w-full flex-col gap-12">
+	<div class="mx-auto flex w-full flex-col gap-2">
 		<!-- HEADER -->
-		<div class="mx-auto w-full bg-linear-to-l from-buttons-default/16 to-transparent px-14 py-16">
-			<div class="mx-auto w-full max-w-7xl">
+		<div class="mx-auto w-full bg-linear-to-l from-buttons-default/16 to-transparent py-16">
+			<div class="mx-auto w-full max-w-7xl px-8">
 				<div
 					class="mb-6 flex w-fit items-center gap-2 rounded-full bg-buttons-muted px-3 py-1 text-sm font-medium text-text-green"
 				>
 					Our Services
 				</div>
 
-				<h2 class="mb-4 text-5xl font-black">
+				<h2 class="mb-4 text-3xl font-black md:text-5xl">
 					Complete Energy & <span class="text-text-green">Security Solutions</span>
 				</h2>
 
-				<p class="text-text-green">
+				<p class="text-sm text-text-green md:text-base">
 					From solar installation to smart security systems, we offer comprehensive solutions to
 					power and protect your home or business.
 				</p>
@@ -27,7 +27,7 @@
 		</div>
 
 		<!-- Services -->
-		<div class="mx-auto flex w-full max-w-7xl flex-col px-8 py-10 md:px-0">
+		<div class="mx-auto flex w-full max-w-7xl flex-col px-8 py-4 md:px-0">
 			<Service
 				title="Solar Panel Installation"
 				description="Harness the power of the sun with our premium solar panel systems. We provide complete installation services for residential and commercial properties."
@@ -106,9 +106,9 @@
 </section>
 <!-- CTA -->
 <div
-	class="mx-auto flex w-full flex-col items-center gap-4 bg-footer-background px-14 py-10 text-center text-white"
+	class="mx-auto flex w-full flex-col items-center gap-4 bg-footer-background px-8 py-10 text-center text-white"
 >
-	<h3 class="mb-2 text-xl font-semibold">Not Sure Which Service You Need?</h3>
+	<h3 class=" text-xl font-semibold md:text-2xl">Not Sure Which Service You Need?</h3>
 
 	<p class="mx-auto mb-6 max-w-md text-sm text-buttons-muted">
 		Our experts will assess your requirements and recommend the best solution. Get a free

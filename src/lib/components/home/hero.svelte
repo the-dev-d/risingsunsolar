@@ -15,7 +15,7 @@
 	});
 </script>
 
-<section class="relative h-screen max-h-200 min-h-200 overflow-hidden mx-auto w-full px-6 py-20">
+<section class="relative mx-auto h-screen max-h-200 min-h-200 w-full overflow-hidden px-6 py-20">
 	<!-- Background -->
 	<div class="absolute inset-0">
 		<Carousel.Root plugins={[plugin]} class="h-full w-full">
@@ -26,7 +26,7 @@
 					</Carousel.Item>
 				{/each}
 			</Carousel.Content>
-			<Carousel.Next class="absolute top-1/2 right-4 z-10 opacity-50 hidden md:flex" />
+			<Carousel.Next class="absolute top-1/2 right-4 z-10 hidden opacity-50 md:flex" />
 		</Carousel.Root>
 		<div class="pointer-events-none absolute inset-0">
 			<div class="absolute inset-0 bg-gradient-to-r from-white/70 to-transparent"></div>
@@ -36,6 +36,7 @@
 	<!-- Content -->
 	<div
 		class="pointer-events-none relative mx-auto flex h-full max-w-7xl flex-col px-6 py-32 text-left"
+		data-aos="fade-up"
 	>
 		<div class="h-1 flex-1"></div>
 		<div>
@@ -54,7 +55,9 @@
 				Premium solar panels with industry-leading efficiency. Save up to 70% on your energy bills.
 			</p>
 
-			<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start pointer-events-auto">
+			<div
+				class="pointer-events-auto flex flex-col justify-center gap-4 sm:flex-row md:justify-start"
+			>
 				<button
 					class="rounded-lg bg-buttons-default px-6 py-3 font-semibold text-white shadow transition"
 				>

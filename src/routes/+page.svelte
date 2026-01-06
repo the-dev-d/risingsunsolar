@@ -10,9 +10,11 @@
 	<Hero />
 	<!-- SERVICES -->
 	<section class="relative mx-auto w-full max-w-7xl overflow-hidden px-6 py-24 text-center">
-		<span class="text-sm font-semibold tracking-widest uppercase"> Our Services </span>
+		<span class="text-sm font-semibold tracking-widest uppercase" data-aos="fade-up">
+			Our Services
+		</span>
 
-		<div class="relative my-6 flex items-center gap-6">
+		<div class="relative my-6 flex items-center gap-6" data-aos="fade-up">
 			<span
 				class="hidden h-px flex-1
          bg-gradient-to-l from-buttons-default to-transparent md:block"
@@ -30,12 +32,12 @@
 			</span>
 		</div>
 
-		<p class="mx-auto max-w-xl">
+		<p class="mx-auto max-w-xl" data-aos="fade-up">
 			Everything you need to power, protect, and sustain your home or business under one roof.
 		</p>
 
 		<div class="mt-16 grid gap-8 text-left text-text-green md:grid-cols-3">
-			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
+			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5" data-aos="fade-right">
 				<div
 					class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-orange/24 text-buttons-orange"
 				>
@@ -63,7 +65,11 @@
 				</a>
 			</div>
 
-			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
+			<div
+				class="rounded-2xl bg-white p-8 shadow-md shadow-black/5"
+				data-aos="fade-right"
+				data-aos-delay="200"
+			>
 				<div
 					class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-grey text-white"
 				>
@@ -91,7 +97,11 @@
 				</a>
 			</div>
 
-			<div class="rounded-2xl bg-white p-8 shadow-md shadow-black/5">
+			<div
+				class="rounded-2xl bg-white p-8 shadow-md shadow-black/5"
+				data-aos="fade-right"
+				data-aos-delay="400"
+			>
 				<div
 					class="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-buttons-muted text-text-green"
 				>
@@ -123,7 +133,10 @@
 	<!-- ABOUT -->
 	<About />
 	<!-- CTA -->
-	<section class="relative bg-linear-to-l from-buttons-orange/16 to-transparent py-10">
+	<section
+		class="relative bg-linear-to-l from-buttons-orange/16 to-transparent py-10"
+		data-aos="fade-down"
+	>
 		<div class="relative mx-auto max-w-5xl px-6 text-center">
 			<p class="mb-6 text-sm">Get Started Today</p>
 

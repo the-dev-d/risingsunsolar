@@ -2,7 +2,7 @@
 	import Button from '$lib/shadcn/ui/button/button.svelte';
 </script>
 
-<nav class=" fixed top-0 z-50 mx-auto w-full bg-white/40 shadow-xs backdrop-blur-md">
+<nav class=" fixed top-0 z-50 mx-auto w-full bg-white/40 shadow-xs backdrop-blur-md" data-aos="fade-down">
 	<div class="mx-auto flex h-fit max-w-7xl items-center justify-between px-6 py-2">
 		<div class="flex h-16 items-center">
 			<img src="/images/logo.png" alt="logo" class="h-full w-auto object-contain" />

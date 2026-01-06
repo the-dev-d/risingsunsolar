@@ -9,7 +9,7 @@
 
 <section class="relative mx-auto max-w-7xl px-6 py-24">
 	<div class="container mx-auto grid items-center gap-16 lg:grid-cols-2">
-		<div class="relative flex h-128 w-full flex-col p-10">
+		<div class="relative flex h-128 w-full flex-col p-10" data-aos="fade-up">
 			<img
 				src="/images/solarDisplay.jpg"
 				alt="Solar panels"
@@ -39,7 +39,7 @@
 			</Card>
 		</div>
 
-		<div>
+		<div data-aos="fade-up">
 			<div class="mb-3 flex items-center gap-6 text-sm font-semibold tracking-widest uppercase">
 				Why choose us
 				<span
@@ -59,7 +59,7 @@
 				real difference for your wallet and the planet.
 			</p>
 
-			<div class="grid gap-6 sm:grid-cols-2">
+			<div class="grid gap-6 sm:grid-cols-2" data-aos="fade-up" data-aos-delay="200">
 				<Feature
 					icon={Zap}
 					title="Cost Savings"

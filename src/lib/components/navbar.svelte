@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="hidden items-center gap-8 md:flex">
-			<a href="#services" class=" text-sm text-text-green transition-colors"> Services </a>
+			<a href="/services" class=" text-sm text-text-green transition-colors"> Services </a>
 			<a href="#features" class=" text-sm text-text-green transition-colors"> Features </a>
 			<a href="/about" class=" text-sm text-text-green transition-colors"> About </a>
 			<a href="#contact" class=" text-sm text-text-green transition-colors"> Contact </a>

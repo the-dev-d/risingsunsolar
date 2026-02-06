@@ -9,34 +9,12 @@
 
 <section class="relative mx-auto max-w-7xl px-8 py-20 md:py-24">
 	<div class="container mx-auto grid items-center gap-16 lg:grid-cols-2">
-		<div class="relative flex h-92 md:h-128 w-full flex-col p-6 md:p-10" data-aos="fade-up">
+		<div class="relative flex h-92 w-full flex-col p-6 md:h-128 md:p-10" data-aos="fade-up">
 			<img
 				src="/images/solarDisplay.jpg"
 				alt="Solar panels"
-				class="absolute top-0 left-0 -z-10 h-full w-full rounded-2xl object-cover opacity-45"
+				class="absolute top-0 left-0 -z-10 h-full w-full rounded-2xl object-cover"
 			/>
-
-			<Card class="w-full gap-4 p-4 shadow-lg">
-				<div class="flex items-center justify-between text-sm text-muted-foreground">
-					<span>Energy Generated</span>
-					<Badge variant="secondary" class="text-text-green">+12.5%</Badge>
-				</div>
-				<div class="text-xl md:text-2xl font-semibold">24,580 kWh</div>
-				<Progress value={70} />
-			</Card>
-			<div class="flex-1"></div>
-			<Card class="w-full gap-3 p-4 shadow-lg">
-				<div class="flex items-center gap-3">
-					<div class="flex h-10 w-10 items-center justify-center rounded-md bg-buttons-orange/24">
-						<Check class="h-5 w-5 text-buttons-orange" />
-					</div>
-
-					<div>
-						<p class="text-sm text-muted-foreground">CO₂ Emissions Saved</p>
-						<p class="md:text-lg font-semibold">12.4 Tons</p>
-					</div>
-				</div>
-			</Card>
 		</div>
 
 		<div data-aos="fade-up">
@@ -49,51 +27,51 @@
 				</span>
 			</div>
 
-			<h2 class="mb-4 text-3xl md:text-5xl leading-tight font-bold">
-				Trusted by Thousands <br />
+			<h2 class="mb-4 text-3xl leading-tight font-bold md:text-5xl">
+				Trusted Partner <br />
 				for Sustainable Living
 			</h2>
 
-			<p class="mb-10 max-w-xl text-sm md:text-base text-muted-foreground">
+			<p class="mb-10 max-w-xl text-sm text-muted-foreground md:text-base">
 				We combine cutting-edge technology with exceptional service to deliver solutions that make a
-				real difference for your wallet and the planet.
+				real difference for your budget and the planet.
 			</p>
 
 			<div class="grid gap-6 sm:grid-cols-2" data-aos="fade-up" data-aos-delay="200">
 				<Feature
 					icon={Zap}
 					title="Cost Savings"
-					text="Reduce energy costs by up to 70% with our efficient solar systems."
+					text="Significantly lower your monthly energy expenses with our solar solutions."
 				/>
 
 				<Feature
 					icon={Clock}
 					title="Quick Installation"
-					text="Professional installation completed in just 1–3 days."
+					text="Efficient installation process managed by our experienced team."
 				/>
 
 				<Feature
 					icon={Shield}
 					title="Premium Quality"
-					text="Industry-leading equipment with 25-year warranty coverage."
+					text="Top-tier equipment sourced from world-renowned manufacturers."
 				/>
 
 				<Feature
 					icon={Headphones}
-					title="24/7 Support"
-					text="Round-the-clock customer service and monitoring."
+					title="Dedicated Support"
+					text="Reliable customer service and system monitoring."
 				/>
 
 				<Feature
 					icon={Wrench}
-					title="Free Maintenance"
-					text="Complimentary annual maintenance for optimal performance."
+					title="Maintenance Services"
+					text="Regular maintenance options to ensure peak system performance."
 				/>
 
 				<Feature
 					icon={BadgeCheck}
 					title="Certified Experts"
-					text="Licensed professionals with 10+ years of experience."
+					text="Licensed professionals with extensive industry experience."
 				/>
 			</div>
 		</div>

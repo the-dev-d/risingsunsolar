@@ -44,6 +44,8 @@
 		"vite": "^7.2.6"
 	},
 	"dependencies": {
+		"@types/aos": "^3.0.7",
+		"aos": "^2.3.4",
 		"embla-carousel-autoplay": "^8.6.0",
 		"lucide-svelte": "^0.562.0"
 	}

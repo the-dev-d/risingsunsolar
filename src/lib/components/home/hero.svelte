@@ -52,7 +52,8 @@
 			</h1>
 
 			<p class="sm:text-md mb-8 max-w-lg text-justify text-base text-text-green">
-				Premium solar panels with industry-leading efficiency. Save up to 70% on your energy bills.
+				Premium solar panels with industry-leading efficiency. Transform your home or business with
+				clean, sustainable energy.
 			</p>
 
 			<div
@@ -62,7 +63,7 @@
 					href="/contact"
 					class="flex transform items-center justify-center rounded-lg bg-buttons-default px-6 py-3 font-semibold text-white shadow transition-all duration-300 hover:scale-105"
 				>
-					Start Saving Today
+					Get Started
 				</a>
 				<a
 					href="/services"

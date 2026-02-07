@@ -13,6 +13,14 @@
 	} from '@lucide/svelte';
 </script>
 
+<svelte:head>
+	<title>Contact Us | Rising Sun Solar Systems</title>
+	<meta
+		name="description"
+		content="Get in touch with Rising Sun Solar Systems for solar, electrical, or security consultations. Located in Ayarkunnam, Kottayam. Call or WhatsApp us today."
+	/>
+</svelte:head>
+
 <section class="py-20">
 	<!-- HEADER -->
 	<div class="mx-auto w-full bg-linear-to-l from-buttons-default/16 to-transparent py-16">

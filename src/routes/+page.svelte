@@ -21,6 +21,14 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Rising Sun Solar Systems | Solar & Energy Solutions Kottayam</title>
+	<meta
+		name="description"
+		content="Leading solar energy provider in Kottayam, Kerala. We offer high-efficiency solar panels, electrical contracting, and smart security systems. Established in 1997."
+	/>
+</svelte:head>
+
 <main>
 	<!-- HERO -->
 	<Hero />

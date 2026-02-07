@@ -4,6 +4,14 @@
 	import { Sun, Zap, Shield, DoorOpen, Droplets } from '@lucide/svelte';
 </script>
 
+<svelte:head>
+	<title>Our Services | Solar, Electrical & Security Solutions</title>
+	<meta
+		name="description"
+		content="Explore our wide range of services including solar panel installation, electrical work, CCTV security, gate automation, and solar water heaters in Kottayam."
+	/>
+</svelte:head>
+
 <section class="relative w-full overflow-hidden py-20">
 	<div class="mx-auto flex w-full flex-col gap-2">
 		<!-- HEADER -->

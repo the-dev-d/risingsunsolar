@@ -4,6 +4,14 @@
 	import { Leaf, Eye, Heart } from 'lucide-svelte';
 </script>
 
+<svelte:head>
+	<title>About Us | Rising Sun Solar Systems</title>
+	<meta
+		name="description"
+		content="Learn about Rising Sun Solar Systems, established in 1997. We are a trusted leader in solar, electrical, and plumbing solutions in Kottayam, Kerala."
+	/>
+</svelte:head>
+
 <section class="relative w-full overflow-hidden py-20">
 	<div class="mx-auto flex w-full flex-col gap-12">
 		<!-- HEADER -->

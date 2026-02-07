@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && touch build/.nojekyll",
+		"build": "vite build && touch build/.nojekyll && echo 'risingsunsolar.in' > build/CNAME",
 		"deploy": "gh-pages -d build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",

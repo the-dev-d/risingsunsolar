@@ -22,7 +22,7 @@
 		property="og:description"
 		content="Leading provider of solar power, automation, and electrical solutions in Kerala since 1997. MNRE Approved and PWD Licensed."
 	/>
-	<meta property="og:image" content="/images/logo.png" />
+	<meta property="og:image" content="/images/meta-preview.png" />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />

@@ -1,13 +1,17 @@
 <script>
 	import { ChevronUp, ChevronDown } from '@lucide/svelte';
 
+	let { headless = false } = $props();
+
 	const cards = [
 		{ id: 1, image: '/images/products/adani.jpg', alt: 'Adani Solar' },
 		{ id: 2, image: '/images/products/emmvee.jpg', alt: 'Emmvee Solar' },
-		{ id: 3, image: '/images/products/N-Type.jpg', alt: 'Gautam Solar N-Type' }
+		{ id: 3, image: '/images/products/N-Type.jpg', alt: 'Gautam Solar N-Type' },
+		{ id: 4, image: '/images/products/Microtek.jpg', alt: 'Microtek' },
+		{ id: 5, image: '/images/products/Eastman.jpg', alt: 'Eastman' }
 	];
 
-	let cardOrder = $state([0, 1, 2]); // Indices of cards in display order (top to bottom)
+	let cardOrder = $state([0, 1, 2, 3, 4]); // Indices of cards in display order (top to bottom)
 
 	function moveUp() {
 		// Top card goes to bottom
@@ -39,21 +43,28 @@
 	}
 </script>
 
-<section class="relative mx-auto w-full max-w-7xl px-8 py-24" data-aos="fade-up">
-	<div class="mb-16 text-center">
-		<span class="text-sm font-bold tracking-widest text-buttons-orange uppercase"
-			>Our Trusted Partners</span
-		>
-		<h2 class="mt-4 text-4xl font-black md:text-5xl">
-			Authorized <span class="text-text-green">Dealerships</span>
-		</h2>
-		<p class="mx-auto mt-4 max-w-2xl text-base text-text-green/70">
-			We bring you the world's most reliable solar technology from industry-leading manufacturers.
-		</p>
-	</div>
+<section
+	class="relative mx-auto w-full {headless ? '' : 'max-w-7xl px-8 py-24'}"
+	data-aos="fade-up"
+>
+	{#if !headless}
+		<div class="mb-16 text-center">
+			<span class="text-sm font-bold tracking-widest text-buttons-orange uppercase"
+				>Our Trusted Brands</span
+			>
+			<h2 class="mt-4 text-4xl font-black md:text-5xl">
+				Our Trusted <span class="text-text-green">Brands</span>
+			</h2>
+			<p class="mx-auto mt-4 max-w-2xl text-base text-text-green/70">
+				We bring you the world's most reliable solar technology from industry-leading manufacturers.
+			</p>
+		</div>
+	{/if}
 
 	<div
-		class="relative mx-auto flex max-w-5xl flex-col items-center justify-center gap-12 md:flex-row"
+		class="relative mx-auto flex {headless
+			? 'max-w-full'
+			: 'max-w-5xl'} flex-col items-center justify-center gap-12 md:flex-row"
 	>
 		<!-- Stacked Cards Container -->
 		<div

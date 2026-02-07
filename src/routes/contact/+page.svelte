@@ -61,7 +61,7 @@
 
 					<div>
 						<p class="text-sm font-semibold">Email</p>
-						<p class="text-sm text-muted-foreground">augustinemthw@gmail.com</p>
+						<p class="text-sm text-muted-foreground">solarsystemsrisingsun@gmail.com</p>
 					</div>
 				</div>
 
@@ -134,7 +134,7 @@
 						</a>
 						<a
 							class="w-fit rounded-md bg-buttons-muted p-3 text-text-green transition-colors hover:bg-buttons-muted/80"
-							href="https://www.instagram.com/mathew_thandasseril/"
+							href="https://www.instagram.com/risingsunsolarsystems/"
 							target="_blank"
 							rel="noopener noreferrer"
 							aria-label="Instagram"

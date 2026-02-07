@@ -4,7 +4,8 @@
 	import Button from '$lib/shadcn/ui/button/button.svelte';
 	import Hero from '$lib/components/home/hero.svelte';
 	import About from '$lib/components/home/about.svelte';
-	import StackedCards from '$lib/components/home/stackedCards.svelte';
+	import BrandTrust from '$lib/components/home/brandTrust.svelte';
+	import Achievements from '$lib/components/home/achievements.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -73,7 +74,7 @@
 
 				<ul class="mt-4 space-y-2 text-sm">
 					<li>• Monocrystalline Technology</li>
-					<li>• Authorized Dealer Equipment</li>
+					<li>• Leading Brand Equipments</li>
 					<li>• Smart Monitoring App</li>
 				</ul>
 
@@ -131,8 +132,8 @@
 				<h3 class="text-lg font-semibold text-black">Eco Equipment</h3>
 
 				<p class="mt-3 text-sm">
-					Sustainable home automation and energy management solutions. Smart thermostats, LED
-					systems, and efficient appliances.
+					Sustainable home automation and energy management solutions. Smart AI cameras,LED systems,
+					and efficient appliances.
 				</p>
 
 				<ul class="mt-4 space-y-2 text-sm">
@@ -151,7 +152,11 @@
 		</div>
 	</section>
 	<!-- ABOUT -->
-	<StackedCards />
+	<!-- ACHIEVEMENTS -->
+	<Achievements />
+
+	<!-- TRUST & FAQ SECTION -->
+	<BrandTrust />
 
 	<About />
 	<!-- CTA -->

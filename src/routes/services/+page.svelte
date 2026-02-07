@@ -68,7 +68,7 @@
 					'Night Vision Cameras',
 					'Remote Monitoring',
 					'Motion Detection Alerts',
-					'Cloud Storage'
+					'AI enabled Cameras'
 				]}
 				bg="bg-buttons-grey"
 				fg="text-white"
@@ -98,7 +98,6 @@
 					'Flat Plate Collectors',
 					'Evacuated Tube Systems',
 					'Heat Pump Integration',
-					'Tankless Options',
 					'Maintenance Services'
 				]}
 				bg="bg-buttons-orange/24"

@@ -59,7 +59,8 @@
 
 <!-- Overlay -->
 {#if open}
-	<div class="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm" on:click={() => (open = false)} />
+	<div class="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm" on:click={() => (open = false)}>
+	</div>
 {/if}
 
 <!-- Slide Menu -->

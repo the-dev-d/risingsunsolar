@@ -20,8 +20,9 @@
 				</h2>
 
 				<p class="text-sm text-text-green md:text-base">
-					We are a team of passionate professionals dedicated to delivering exceptional solar,
-					electrical, and energy solutions that transform homes and businesses.
+					Based in Ayarkunnam, Kottayam, and established in 1997, Rising Sun Solar Systems is a
+					trusted leader in integrated electrical, plumbing, and renewable energy solutions across
+					Kerala.
 				</p>
 			</div>
 		</div>
@@ -32,20 +33,27 @@
 				<h3 class="text-xl font-semibold text-black md:text-2xl">Our Story</h3>
 
 				<p>
-					Rising Sun Solar Systems was founded with a simple mission: to make renewable energy
-					accessible to everyone. What started as a small team of solar enthusiasts has grown into a
-					comprehensive energy solutions provider.
+					Established in 1997 as Rising Sun Electricals in Ayarkunnam, Kottayam, our journey began
+					with the supply of branded electrical goods. Over the years, we expanded into
+					comprehensive electrical and plumbing contracting, backed by a valid Kerala PWD Electrical
+					Contractor License, catering to residential, commercial, and government projects with
+					unwavering quality.
 				</p>
 
 				<p>
-					Over the years, we’ve expanded our services to include electrical work, EV charging
-					systems, and energy solutions. Our commitment to quality and customer satisfaction has
-					earned us the trust of many homeowners and businesses.
+					Driven by modernization, we diversified into home automation, security surveillance, and
+					designer lighting. This evolution naturally led us to the forefront of renewable energy,
+					where we launched Rising Sun Solar Systems. Today, we offer integrated solutions across
+					solar power, smart technology, and traditional utilities, providing a one-stop destination
+					for efficient and secure living.
 				</p>
 
 				<p>
-					Today, we’re proud to be at the forefront of the clean energy revolution, helping our
-					clients reduce their carbon footprint while saving money on their energy bills.
+					As a trusted name built on decades of customer trust, we are proud to be recognized as the
+					<span class="font-bold text-black">3rd most top solar solutions team in Kottayam</span>.
+					Our commitment to excellence is reinforced by being an
+					<span class="font-bold text-black">MNRE Approved</span> agency, ensuring that our sustainable
+					installations meet the highest national standards of reliability and performance.
 				</p>
 			</div>
 
@@ -66,19 +74,19 @@
 			<ValueCard
 				icon={Leaf}
 				title="Mission"
-				text="High-efficiency renewable energy solutions that empower customers to reduce energy costs and their carbon footprint."
+				text="To provide integrated electrical, plumbing, and renewable energy solutions that deliver quality, reliability, and value to every project we undertake."
 			/>
 
 			<ValueCard
 				icon={Eye}
 				title="Vision"
-				text="A world where clean energy is accessible, affordable, and integral to every home and business."
+				text="To drive sustainable development and modernization across Kerala through innovative solar power, smart automation, and advanced electrical systems."
 			/>
 
 			<ValueCard
 				icon={Heart}
 				title="Values"
-				text="Sustainability, innovation, and integrity guide everything we do—from consultation to installation."
+				text="Decades of experience, quality workmanship, and customer trust form the foundation of our commitment to excellence."
 			/>
 		</div>
 

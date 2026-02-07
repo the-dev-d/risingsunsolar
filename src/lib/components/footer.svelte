@@ -33,7 +33,7 @@
 						<Facebook class="h-5 w-5" />
 					</a>
 					<a
-						href="https://www.instagram.com/mathew_thandasseril/"
+						href="https://www.instagram.com/risingsunsolarsystems/"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="flex h-10 w-10 items-center justify-center rounded-xl bg-buttons-default transition hover:scale-110"

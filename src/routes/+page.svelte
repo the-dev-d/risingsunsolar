@@ -6,6 +6,7 @@
 	import About from '$lib/components/home/about.svelte';
 	import BrandTrust from '$lib/components/home/brandTrust.svelte';
 	import Achievements from '$lib/components/home/achievements.svelte';
+	import Faq from '$lib/components/home/faq.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -63,8 +64,12 @@
 			</span>
 		</div>
 
-		<p class="mx-auto max-w-xl text-sm md:text-base" data-aos="fade-up">
-			Everything you need to power, protect, and sustain your home or business under one roof.
+		<p class="mx-auto max-w-2xl text-sm leading-relaxed md:text-base" data-aos="fade-up">
+			Everything you need to power, protect, and sustain your home or business under one roof. As a
+			leading solar panel installation company Kerala, we provide advanced energy solutions designed
+			for efficiency, reliability, and long-term sustainability. Our services combine modern
+			technology with professional expertise to deliver the best solar panel installation Kerala
+			along with smart security and eco-friendly systems.
 		</p>
 
 		<div class="mt-16 grid gap-8 text-left text-text-green md:grid-cols-3">
@@ -78,14 +83,17 @@
 				<h3 class="text-lg font-semibold text-black">Solar Panels</h3>
 
 				<p class="mt-3 text-sm">
-					High-efficiency photovoltaic systems designed for maximum energy capture. Lower your
-					electricity bills with sustainable solar energy.
+					High-efficiency photovoltaic systems designed for maximum energy capture and long-term
+					performance. As a leading solar panel installation company Kerala, we provide professional
+					solar panel installation Kerala services that help homeowners and businesses reduce
+					electricity costs while switching to clean and renewable energy.
 				</p>
 
 				<ul class="mt-4 space-y-2 text-sm">
 					<li>• Monocrystalline Technology</li>
-					<li>• Leading Brand Equipments</li>
+					<li>• Leading Brand Equipment</li>
 					<li>• Smart Monitoring App</li>
+					<li>• Expert Solar Panel Installation in Kerala</li>
 				</ul>
 
 				<a
@@ -110,14 +118,16 @@
 				<h3 class="text-lg font-semibold text-black">Security Systems</h3>
 
 				<p class="mt-3 text-sm">
-					Advanced electronic security powered by renewable energy. Cameras, sensors, and monitoring
-					with eco-conscious design.
+					Advanced electronic security systems designed to protect your home or business while
+					integrating energy-efficient technologies. Our smart security solutions include cameras,
+					sensors, and monitoring systems powered by sustainable energy sources.
 				</p>
 
 				<ul class="mt-4 space-y-2 text-sm">
 					<li>• 24/7 Monitoring</li>
-					<li>• Solar-Powered Options</li>
+					<li>• Solar-Powered Security Options</li>
 					<li>• Mobile App Control</li>
+					<li>• Smart Surveillance Solutions</li>
 				</ul>
 
 				<a
@@ -142,13 +152,15 @@
 				<h3 class="text-lg font-semibold text-black">Eco Equipment</h3>
 
 				<p class="mt-3 text-sm">
-					Sustainable home automation and energy management solutions. Smart AI cameras,LED systems,
-					and efficient appliances.
+					Sustainable home automation and energy-efficient equipment that support smarter living.
+					From AI-powered cameras to LED systems and smart appliances, our eco solutions help reduce
+					energy consumption and environmental impact.
 				</p>
 
 				<ul class="mt-4 space-y-2 text-sm">
 					<li>• Energy-Efficient Devices</li>
 					<li>• Smart Home Integration</li>
+					<li>• AI Camera Systems</li>
 					<li>• Environmental Impact Reduction</li>
 				</ul>
 
@@ -161,14 +173,18 @@
 			</div>
 		</div>
 	</section>
-	<!-- ABOUT -->
 	<!-- ACHIEVEMENTS -->
 	<Achievements />
 
-	<!-- TRUST & FAQ SECTION -->
+	<!-- TRUST SECTION -->
 	<BrandTrust />
 
+	<!-- ABOUT SECTION -->
 	<About />
+
+	<!-- FAQ SECTION -->
+	<Faq />
+
 	<!-- CTA -->
 	<section
 		class="relative bg-linear-to-l from-buttons-orange/16 to-transparent py-10"
@@ -193,10 +209,30 @@
 				></span>
 			</div>
 
-			<p class="mx-auto mb-10 max-w-xl text-xs leading-relaxed md:text-sm">
-				Get a free consultation and quote for your solar, electrical, or security project. Our
-				experts are ready to help you make the switch to smarter energy solutions.
-			</p>
+			<div
+				class="mx-auto mb-10 max-w-4xl space-y-4 text-xs leading-relaxed text-text-green/80 md:text-sm"
+			>
+				<p>
+					Take the first step toward a smarter and more sustainable future with the leading solar
+					panel installation company in Kerala. We specialize in professional solar panel
+					installation in Kerala, helping homeowners and businesses reduce electricity costs while
+					embracing reliable renewable energy solutions.
+				</p>
+				<p>
+					Get a free consultation and quote for your solar, electrical, or security project. Our
+					experienced experts will guide you through every step, from system design to installation,
+					ensuring a smooth and efficient transition to clean energy. With advanced technology,
+					quality equipment, and dedicated support, we make solar panel installation in Kerala
+					simple, affordable, and highly effective.
+				</p>
+				<p>
+					Switch to clean energy today and start enjoying long-term savings and environmental
+					benefits with a trusted team committed to delivering excellence.
+				</p>
+				<p class="font-bold text-text-green">
+					Contact us now to learn how we can power your home or business with solar energy.
+				</p>
+			</div>
 
 			<div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
 				<a

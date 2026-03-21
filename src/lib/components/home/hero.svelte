@@ -46,14 +46,22 @@
 				<Leaf class="h-4 w-4" /> Sustainable Energy Solutions
 			</div>
 
-			<h1 class="mb-6 text-4xl font-black sm:text-5xl lg:text-6xl">
+			<h1 class="mb-2 text-4xl font-black sm:text-5xl lg:text-6xl">
 				Power Your Future <br />
 				with <span class="text-text-green">Clean Energy</span>
 			</h1>
 
-			<p class="sm:text-md mb-8 max-w-lg text-justify text-base text-text-green">
-				Premium solar panels with industry-leading efficiency. Transform your home or business with
-				clean, sustainable energy.
+			<p class="mb-6 text-lg font-bold text-text-green sm:text-xl">
+				Leading Solar Panel Installation Company Kerala
+			</p>
+
+			<p class="sm:text-md mb-8 max-w-2xl text-justify text-base text-text-green/90">
+				Transform your home or business with reliable and efficient solar panel installation Kerala
+				solutions. As a leading solar panel installation company Kerala, we provide high-quality
+				solar panels designed to deliver maximum energy efficiency and long-term savings. Our expert
+				team ensures seamless installation, helping you switch to clean, renewable energy while
+				reducing electricity costs and supporting a sustainable future. Experience smart energy
+				solutions built for Kerala’s climate and power your future with
 			</p>
 
 			<div

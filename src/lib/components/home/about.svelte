@@ -29,49 +29,58 @@
 
 			<h2 class="mb-4 text-3xl leading-tight font-bold md:text-5xl">
 				Trusted Partner <br />
-				for Sustainable Living
+				for Sustainable Living <br />
+				<span class="text-lg font-bold text-text-green sm:text-2xl"
+					>Leading Solar Panel Installation Company Kerala</span
+				>
 			</h2>
 
-			<p class="mb-10 max-w-xl text-sm text-muted-foreground md:text-base">
-				We combine cutting-edge technology with exceptional service to deliver solutions that make a
-				real difference for your budget and the planet.
+			<p class="mb-10 max-w-2xl text-justify text-sm text-muted-foreground md:text-base">
+				As a leading solar panel installation company in Kerala, we are committed to helping homes
+				and businesses transition to clean, renewable energy. Our team specializes in solar panel
+				installation in Kerala, combining cutting-edge solar technology with exceptional customer
+				service to deliver reliable, long-term energy solutions. We focus on creating systems that
+				not only reduce electricity costs but also contribute to a greener and more sustainable
+				future for the planet. Our approach is simple , provide efficient, high-quality solar
+				solutions tailored to your needs while ensuring maximum performance and savings for years to
+				come.
 			</p>
 
 			<div class="grid gap-6 sm:grid-cols-2" data-aos="fade-up" data-aos-delay="200">
 				<Feature
 					icon={Zap}
 					title="Cost Savings"
-					text="Significantly lower your monthly energy expenses with our solar solutions."
+					text="Significantly reduce your monthly electricity bills with our advanced solar systems designed for maximum efficiency and long-term financial benefits."
 				/>
 
 				<Feature
 					icon={Clock}
 					title="Quick Installation"
-					text="Efficient installation process managed by our experienced team."
+					text="Our experienced team ensures a smooth and efficient solar panel installation in Kerala, completing projects quickly while maintaining the highest safety and quality standards."
 				/>
 
 				<Feature
 					icon={Shield}
 					title="Premium Quality"
-					text="Top-tier equipment sourced from world-renowned manufacturers."
+					text="We use top-tier solar panels, inverters, and components sourced from globally trusted manufacturers to ensure durability, reliability, and high performance."
 				/>
 
 				<Feature
 					icon={Headphones}
 					title="Dedicated Support"
-					text="Reliable customer service and system monitoring."
+					text="From consultation to post-installation service, our support team provides reliable customer care and system monitoring to keep your solar system performing at its best."
 				/>
 
 				<Feature
 					icon={Wrench}
 					title="Maintenance Services"
-					text="Regular maintenance options to ensure peak system performance."
+					text="We offer regular maintenance and system checkups to ensure optimal performance and longevity of your solar power system."
 				/>
 
 				<Feature
 					icon={BadgeCheck}
 					title="Certified Experts"
-					text="Licensed professionals with extensive industry experience."
+					text="Our licensed and trained professionals bring extensive industry expertise, making us a leading solar panel installation company in Kerala trusted by hundreds of satisfied customers."
 				/>
 			</div>
 		</div>

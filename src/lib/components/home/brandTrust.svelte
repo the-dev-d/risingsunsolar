@@ -32,14 +32,18 @@
 				</div>
 				<div class="space-y-4">
 					<p class="text-base leading-relaxed text-text-green/80 md:text-lg">
-						Choosing solar energy is a commitment to a cleaner, more sustainable future. By
-						harnessing the power of the sun, you significantly reduce your carbon footprint while
-						gaining energy independence.
+						Choosing solar energy is a commitment to a cleaner and more sustainable future. With
+						professional solar panel installation Kerala, homeowners and businesses can harness the
+						abundant power of the sun to generate reliable electricity while significantly reducing
+						their carbon footprint.
 					</p>
 					<p class="text-base leading-relaxed text-text-green/80 md:text-lg">
-						Beyond environmental benefits, solar systems offer a massive reduction in monthly
-						electricity bills, providing long-term financial stability and protection against rising
-						utility costs from the very first day of installation.
+						Solar energy not only helps protect the environment but also provides long-term
+						financial benefits. By installing a modern solar power system, you can drastically
+						reduce monthly electricity bills and gain greater energy independence. With high-quality
+						technology and expert solar panel installation Kerala, your property benefits from
+						efficient power generation, long-term durability, and protection against rising utility
+						costs from the very first day of installation.
 					</p>
 				</div>
 			</div>
@@ -56,18 +60,28 @@
 				</div>
 				<div class="relative space-y-4">
 					<p class="text-base leading-relaxed text-text-green/80 md:text-lg">
-						Since our journey began in 1997 as Rising Sun Electricals, we have built a legacy based
-						on quality workmanship and customer trust across Kerala. Our evolution from an
-						electrical goods supplier to a multifaceted renewable energy leader ensures you get
-						unparalleled industry expertise.
+						Since our journey began in 1997 as Rising Sun Electricals, we have built a strong
+						reputation based on quality workmanship, reliability, and customer trust across Kerala.
+						Over the years, we have evolved from an electrical goods supplier into a trusted
+						renewable energy provider and a leading solar panel installation company Kerala.
+					</p>
+					<p class="text-base leading-relaxed text-text-green/80 md:text-lg">
+						Our experienced team delivers professional solar panel installation Kerala solutions
+						designed for homes, commercial buildings, and industrial projects. We focus on advanced
+						technology, efficient system design, and seamless installation to ensure maximum energy
+						output and long-term performance.
 					</p>
 					<p class="text-base leading-relaxed text-text-green/80 md:text-lg">
 						We are proud to be <span class="font-black text-black">Ranked 3rd in Kottayam</span> as
 						a preferred solar solutions provider. As an
 						<span class="font-black text-black">MNRE Approved Agency</span> and a
 						<span class="font-black text-black">Kerala PWD Licensed Electrical Contractor</span>, we
-						guarantee integrated solutions that meet the highest government standards of safety and
-						efficiency.
+						follow strict government standards and safety regulations to deliver reliable and
+						efficient solar energy systems.
+					</p>
+					<p class="text-base leading-relaxed text-text-green/80 md:text-lg">
+						With decades of industry expertise, we continue to provide sustainable energy solutions
+						that help customers save money, reduce energy costs, and move toward a greener future.
 					</p>
 				</div>
 			</div>

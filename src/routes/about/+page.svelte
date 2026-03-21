@@ -14,7 +14,7 @@
 	<link rel="canonical" href="https://risingsunsolar.in/about" />
 </svelte:head>
 
-<section class="relative w-full overflow-hidden py-20">
+<section class="relative w-full overflow-hidden px-12 py-20">
 	<div class="mx-auto flex w-full flex-col gap-12">
 		<!-- HEADER -->
 		<div class="mx-auto w-full bg-linear-to-l from-buttons-default/16 to-transparent py-16">

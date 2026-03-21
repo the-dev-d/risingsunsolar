@@ -19,6 +19,7 @@
 		name="description"
 		content="Get in touch with Rising Sun Solar Systems for solar, electrical, or security consultations. Located in Ayarkunnam, Kottayam. Call or WhatsApp us today."
 	/>
+	<link rel="canonical" href="https://risingsunsolar.in/contact" />
 </svelte:head>
 
 <section class="py-20">

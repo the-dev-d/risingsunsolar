@@ -6,10 +6,12 @@
 
 <svelte:head>
 	<title>Our Services | Solar, Electrical & Security Solutions</title>
+	<meta name="title" content="CCTV & Security Services in Kerala | Rising Sun Solar" />
 	<meta
 		name="description"
-		content="Explore our wide range of services including solar panel installation, electrical work, CCTV security, gate automation, and solar water heaters in Kottayam."
+		content="Rising Sun Solar offers CCTV & Security services in Kerala and automatic remote gate installation in Kottayam, Kerala for safer homes and businesses."
 	/>
+	<link rel="canonical" href="https://risingsunsolar.in/services" />
 </svelte:head>
 
 <section class="relative w-full overflow-hidden py-20">

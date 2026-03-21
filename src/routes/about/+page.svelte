@@ -6,10 +6,12 @@
 
 <svelte:head>
 	<title>About Us | Rising Sun Solar Systems</title>
+	<meta name="title" content="Top Ranking Solar Installation Company Kottayam" />
 	<meta
 		name="description"
-		content="Learn about Rising Sun Solar Systems, established in 1997. We are a trusted leader in solar, electrical, and plumbing solutions in Kottayam, Kerala."
+		content="Rising Sun Solar is a top ranking solar installation company in Kottayam, offering reliable solar panel installation services for homes and businesses."
 	/>
+	<link rel="canonical" href="https://risingsunsolar.in/about" />
 </svelte:head>
 
 <section class="relative w-full overflow-hidden py-20">

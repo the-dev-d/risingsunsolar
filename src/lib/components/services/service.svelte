@@ -39,6 +39,10 @@
 				{/each}
 			</ul>
 
+			<div class="mb-6">
+				<slot />
+			</div>
+
 			<a
 				href="https://wa.me/919495744899?text={encodeURIComponent(
 					`Hello, I'd like to get a quote for ${title} services.`

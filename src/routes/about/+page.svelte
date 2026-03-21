@@ -5,11 +5,11 @@
 </script>
 
 <svelte:head>
-	<title>About Us | Rising Sun Solar Systems</title>
-	<meta name="title" content="Top Ranking Solar Installation Company Kottayam" />
+	<title>About Us | Top Ranking Solar Installation Company Kottayam</title>
+	<meta name="title" content="Top Ranking Solar Installation Company Kottayam | Rising Sun Solar" />
 	<meta
 		name="description"
-		content="Rising Sun Solar is a top ranking solar installation company in Kottayam, offering reliable solar panel installation services for homes and businesses."
+		content="Rising Sun Solar is a top ranking solar installation company in Kottayam, committed to delivering innovative and reliable renewable energy solutions tailored to modern needs."
 	/>
 	<link rel="canonical" href="https://risingsunsolar.in/about" />
 </svelte:head>
@@ -25,55 +25,52 @@
 					About Us
 				</div>
 
-				<h2 class="mb-4 text-3xl font-black md:text-5xl">
-					Pioneering <span class="text-text-green">Sustainable</span> Solutions
-				</h2>
+				<h1 class="mb-4 text-3xl font-black md:text-5xl">
+					Pioneering Sustainable Solutions <br />
+					<span class="text-base text-text-green">
+						- Top ranking solar installation company kottayam</span
+					>
+				</h1>
 
-				<p class="text-sm text-text-green md:text-base">
-					Based in Ayarkunnam, Kottayam, and established in 1997, Rising Sun Solar Systems is a
-					trusted leader in integrated electrical, plumbing, and renewable energy solutions across
-					Kerala.
+				<p class="max-w-4xl text-sm text-text-green md:text-base">
+					As a Top ranking solar installation company kottayam, we are committed to delivering
+					innovative and reliable renewable energy solutions tailored to modern needs. As a trusted
+					Solar panel installation company in kottayam, our focus is on helping homes and businesses
+					transition to clean, efficient, and cost-effective solar power.
 				</p>
 			</div>
 		</div>
 
 		<!-- STORY CONTENT -->
-		<div class="mx-auto grid w-full max-w-7xl items-center gap-10 px-8 py-2 md:px-0 lg:grid-cols-2">
+		<div class="mx-auto grid w-full max-w-7xl gap-10 px-8 py-2 md:px-0 lg:grid-cols-2">
 			<div class="space-y-5 text-text-green">
 				<h3 class="text-xl font-semibold text-black md:text-2xl">Our Story</h3>
 
 				<p>
-					Established in 1997 as Rising Sun Electricals in Ayarkunnam, Kottayam, our journey began
-					with the supply of branded electrical goods. Over the years, we expanded into
-					comprehensive electrical and plumbing contracting, backed by a valid Kerala PWD Electrical
-					Contractor License, catering to residential, commercial, and government projects with
-					unwavering quality.
+					Established with a vision for sustainability, we have grown into a Top ranking solar
+					installation company kottayam by consistently providing high-quality electrical and
+					renewable energy services. As a leading Solar panel installation company in kottayam, we
+					began with electrical solutions and expanded into solar technology, meeting the rising
+					demand for green energy.
 				</p>
 
 				<p>
-					Driven by modernization, we diversified into home automation, security surveillance, and
-					designer lighting. This evolution naturally led us to the forefront of renewable energy,
-					where we launched Rising Sun Solar Systems. Today, we offer integrated solutions across
-					solar power, smart technology, and traditional utilities, providing a one-stop destination
-					for efficient and secure living.
-				</p>
-
-				<p>
-					As a trusted name built on decades of customer trust, we are proud to be recognized as the
-					<span class="font-bold text-black">3rd most top solar solutions team in Kottayam</span>.
-					Our commitment to excellence is reinforced by being an
-					<span class="font-bold text-black">MNRE Approved</span> agency, ensuring that our sustainable
-					installations meet the highest national standards of reliability and performance.
+					Over the years, our expertise has positioned us as a Top ranking solar installation
+					company kottayam known for excellence in engineering, installation, and maintenance. Being
+					a dependable Solar panel installation company in kottayam, we ensure every project meets
+					industry standards and customer expectations.
 				</p>
 			</div>
 
-			<!-- IMAGE -->
-			<div class="overflow-hidden rounded-2xl">
-				<img
-					src="/images/products/teamjpeg.jpeg"
-					alt="Team collaboration"
-					class="h-full w-full object-cover"
-				/>
+			<div class="space-y-5 text-text-green">
+				<h3 class="pt-4 text-xl font-semibold text-black md:text-2xl">Our Evolution</h3>
+				<p>
+					Driven by innovation, we have diversified our services to include smart energy systems and
+					advanced solar technologies. Today, we proudly stand as a Top ranking solar installation
+					company kottayam, delivering integrated solutions that combine performance with
+					sustainability. Our reputation as a reliable Solar panel installation company in kottayam
+					comes from our commitment to quality and long-term customer satisfaction.
+				</p>
 			</div>
 		</div>
 
@@ -84,19 +81,19 @@
 			<ValueCard
 				icon={Leaf}
 				title="Mission"
-				text="To provide integrated electrical, plumbing, and renewable energy solutions that deliver quality, reliability, and value to every project we undertake."
+				text="Our mission as a Top ranking solar installation company kottayam is to provide efficient, eco-friendly, and affordable solar solutions that empower communities. As a customer-focused Solar panel installation company in kottayam, we aim to maximize energy savings while minimizing environmental impact."
 			/>
 
 			<ValueCard
 				icon={Eye}
 				title="Vision"
-				text="To drive sustainable development and modernization across Kerala through innovative solar power, smart automation, and advanced electrical systems."
+				text="We envision a future powered by renewable energy, where we continue to lead as a Top ranking solar installation company kottayam. Our goal as a forward-thinking Solar panel installation company in kottayam is to drive widespread adoption of solar energy through innovation and trust."
 			/>
 
 			<ValueCard
 				icon={Heart}
 				title="Values"
-				text="Decades of experience, quality workmanship, and customer trust form the foundation of our commitment to excellence."
+				text="Integrity, quality workmanship, and customer trust define us as a Top ranking solar installation company kottayam. As a respected Solar panel installation company in kottayam, we uphold the highest standards in every project we undertake."
 			/>
 		</div>
 
@@ -107,9 +104,10 @@
 			>
 				<h3 class="mb-2 text-xl font-semibold">Not Sure Which Service You Need?</h3>
 
-				<p class="mx-auto mb-6 max-w-md text-sm text-buttons-muted">
-					Get in touch with our team for a free consultation and discover how we can help power your
-					future.
+				<p class="mx-auto mb-6 max-w-lg text-sm text-buttons-muted">
+					Connect with the Top ranking solar installation company kottayam today for expert guidance
+					and customized solutions. As a dependable Solar panel installation company in kottayam, we
+					are here to help you take the next step toward a sustainable and energy-efficient future.
 				</p>
 
 				<a

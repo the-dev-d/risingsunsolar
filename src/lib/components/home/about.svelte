@@ -11,9 +11,9 @@
 	<div class="container mx-auto grid items-center gap-16 lg:grid-cols-2">
 		<div class="relative flex h-92 w-full flex-col p-6 md:h-128 md:p-10" data-aos="fade-up">
 			<img
-				src="/images/solarDisplay.jpg"
-				alt="Solar panels"
-				class="absolute top-0 left-0 -z-10 h-full w-full rounded-2xl object-cover"
+				src="/images/about_diagram_growth.png"
+				alt="Diagram showing company growth through solar energy, smart security, and sustainability"
+				class="absolute top-0 left-0 -z-10 h-full w-full rounded-2xl object-contain p-4"
 			/>
 		</div>
 

@@ -5,11 +5,11 @@
 </script>
 
 <svelte:head>
-	<title>Our Services | Solar, Electrical & Security Solutions</title>
-	<meta name="title" content="CCTV & Security Services in Kerala | Rising Sun Solar" />
+	<title>Complete Energy & Security Services in Kerala | Rising Sun Solar</title>
+	<meta name="title" content="Complete Energy & Security Services in Kerala | Rising Sun Solar" />
 	<meta
 		name="description"
-		content="Rising Sun Solar offers CCTV & Security services in Kerala and automatic remote gate installation in Kottayam, Kerala for safer homes and businesses."
+		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
 	/>
 	<link rel="canonical" href="https://risingsunsolar.in/services" />
 </svelte:head>
@@ -25,13 +25,15 @@
 					Our Services
 				</div>
 
-				<h2 class="mb-4 text-3xl font-black md:text-5xl">
-					Complete Energy & <span class="text-text-green">Security Solutions</span>
-				</h2>
+				<h1 class="mb-4 text-3xl font-black md:text-5xl">
+					Complete Energy & <span class="text-text-green">Security Services in Kerala</span>
+				</h1>
 
-				<p class="text-sm text-text-green md:text-base">
-					From solar installation to smart security systems, we offer comprehensive solutions to
-					power and protect your home or business.
+				<p class="max-w-3xl text-sm text-text-green md:text-base">
+					From advanced solar systems to intelligent surveillance, we provide end-to-end solutions
+					designed to power, protect, and simplify your home or business. As a trusted provider of
+					CCTV & Security services in Kerala, we combine cutting-edge technology with expert
+					installation to ensure safety, efficiency, and peace of mind.
 				</p>
 			</div>
 		</div>
@@ -41,22 +43,28 @@
 			<Service
 				id="solar"
 				title="Solar Panel Installation"
-				description="Harness the power of the sun with our premium solar panel systems. We provide complete installation services for residential and commercial properties."
+				description="Harness the limitless power of the sun with our high-performance solar panel systems. We offer complete installation solutions tailored for both residential and commercial properties, helping you reduce electricity costs and move toward sustainable energy. Our services include:"
 				points={[
 					'Grid-Tied Solar Systems',
-					'Hybrid Systems',
-					'Commercial Installations',
-					'Maintenance & Repairs'
+					'Hybrid Solar Solutions',
+					'Commercial & Industrial Installations',
+					'Maintenance & Repair Services'
 				]}
 				bg="bg-buttons-orange/24"
 				fg="text-buttons-orange"
 				image="images/products/solar.jpeg"
 				icon={Sun}
-			/>
+			>
+				<p class="text-sm text-text-green italic">
+					With our expertise, you get reliable energy solutions built for long-term performance and
+					savings.
+				</p>
+			</Service>
+
 			<Service
 				id="electrical"
 				title="Electrical Work"
-				description="Complete electrical services from wiring to panel upgrades. Our certified electricians ensure safe and efficient power solutions for any project."
+				description="We provide reliable and professional electrical solutions tailored for homes, offices, and commercial spaces. From basic wiring to advanced electrical systems, our certified electricians ensure safe, efficient, and long-lasting performance for every project. As part of our integrated solutions, we also support CCTV & Security services in Kerala, ensuring your electrical systems are perfectly aligned with modern surveillance and safety requirements."
 				points={[
 					'House Rewiring',
 					'Panel Upgrades',
@@ -69,25 +77,29 @@
 				image="images/products/Electric.jpeg"
 				icon={Zap}
 				reverse
-			/><Service
+			/>
+
+			<Service
 				id="security"
 				title="CCTV & Security"
-				description="Advanced security camera systems and monitoring solutions. Keep your property safe with constant surveillance technology and smart alerts."
+				description="Ensure complete protection for your home or business with our advanced surveillance solutions. As a trusted provider of CCTV & Security services in Kerala, we deliver high-quality camera systems and smart monitoring technologies designed to keep your property safe 24/7."
 				points={[
 					'HD Camera Systems',
 					'Night Vision Cameras',
 					'Remote Monitoring',
 					'Motion Detection Alerts',
-					'AI enabled Cameras'
+					'AI-Enabled Cameras'
 				]}
 				bg="bg-buttons-grey"
 				fg="text-white"
 				image="images/products/Cam.jpeg"
 				icon={Shield}
-			/><Service
+			/>
+
+			<Service
 				id="gates"
 				title="Gate Automation"
-				description="Automated gate systems for enhanced security and convenience. Modern solutions for residential and commercial properties."
+				description="Enhance the security and convenience of your property with advanced gate automation solutions. We specialize in Automatic remote gate installation in Kottayam, Kerala, delivering modern, reliable, and user-friendly systems for both residential and commercial spaces."
 				points={[
 					'Sliding Gate Motors',
 					'Swing Gate Systems',
@@ -100,10 +112,12 @@
 				image="images/products/Gate.jpeg"
 				icon={DoorOpen}
 				reverse
-			/><Service
+			/>
+
+			<Service
 				id="water-heaters"
 				title="Solar Water Heaters"
-				description="Eco-friendly water heating solutions powered by the sun. Reduce your energy consumption while enjoying hot water year-round."
+				description="Experience energy-efficient hot water solutions with our advanced solar water heating systems. Designed to harness the power of the sun, our systems provide a reliable and cost-effective way to meet your daily hot water needs for homes, apartments, and commercial spaces. With rising energy costs, switching to solar water heaters is a smart investment that ensures long-term savings while promoting eco-friendly living."
 				points={[
 					'Flat Plate Collectors',
 					'Evacuated Tube Systems',
@@ -116,8 +130,25 @@
 				icon={Droplets}
 			/>
 		</div>
+
+		<!-- Extra Final Section -->
+		<div class="mx-auto w-full max-w-7xl px-8 py-10">
+			<div class="rounded-3xl bg-buttons-muted/30 p-8 md:p-12">
+				<p class="text-center text-base leading-relaxed text-text-green md:text-lg">
+					We offer a complete range of integrated solutions designed to enhance comfort, efficiency,
+					and safety for your home or business. From solar energy systems and solar water heaters to
+					advanced electrical work, our expertise also extends to CCTV & Security services in
+					Kerala, ensuring round-the-clock protection with smart surveillance and monitoring. In
+					addition, we specialize in Automatic remote gate installation in Kottayam, Kerala,
+					providing modern access control systems that combine convenience with high-level security.
+					With a focus on quality, innovation, and customer satisfaction, we deliver end-to-end
+					solutions tailored to meet your unique requirements.
+				</p>
+			</div>
+		</div>
 	</div>
 </section>
+
 <!-- CTA -->
 <div
 	class="mx-auto flex w-full flex-col items-center gap-4 bg-footer-background px-8 py-10 text-center text-white"

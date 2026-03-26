@@ -19,14 +19,14 @@
 	<meta property="og:image" content="/images/meta-preview.png" />
 
 	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://risingsunsolar.in/" />
-	<meta property="twitter:title" content="Rising Sun Solar Systems" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://risingsunsolar.in/" />
+	<meta name="twitter:title" content="Rising Sun Solar Systems" />
 	<meta
-		property="twitter:description"
+		name="twitter:description"
 		content="Integrated solar, electrical, and security solutions in Kottayam, Kerala. Trusted since 1997."
 	/>
-	<meta property="twitter:image" content="/images/logo.png" />
+	<meta name="twitter:image" content="/images/meta-preview.png" />
 
 	<link rel="icon" href={favicon} />
 

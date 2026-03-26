@@ -37,6 +37,17 @@
 		property="og:description"
 		content="Rising Sun Solar is a leading solar panel installation company in Kerala offering reliable solar panel installation Kerala for homes and businesses. Save energy today."
 	/>
+	<meta property="og:image" content="/images/meta-preview.png" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://risingsunsolar.in/" />
+	<meta name="twitter:title" content="Leading Solar Panel Installation Company Kerala" />
+	<meta
+		name="twitter:description"
+		content="Rising Sun Solar is a leading solar panel installation company in Kerala offering reliable solar panel installation Kerala for homes and businesses. Save energy today."
+	/>
+	<meta name="twitter:image" content="/images/meta-preview.png" />
 </svelte:head>
 
 <main>

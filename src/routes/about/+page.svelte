@@ -18,6 +18,17 @@
 		property="og:description"
 		content="Rising Sun Solar is a top ranking solar installation company in Kottayam, committed to delivering innovative and reliable renewable energy solutions tailored to modern needs."
 	/>
+	<meta property="og:image" content="/images/meta-preview.png" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://risingsunsolar.in/about" />
+	<meta name="twitter:title" content="Top Ranking Solar Installation Company Kottayam | Rising Sun Solar" />
+	<meta
+		name="twitter:description"
+		content="Rising Sun Solar is a top ranking solar installation company in Kottayam, committed to delivering innovative and reliable renewable energy solutions tailored to modern needs."
+	/>
+	<meta name="twitter:image" content="/images/meta-preview.png" />
 </svelte:head>
 
 <section class="relative w-full overflow-hidden px-12 py-20">

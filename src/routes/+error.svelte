@@ -15,6 +15,16 @@
 		property="og:description"
 		content="The page you're looking for was not found. Return to Rising Sun Solar Systems for solar and energy solutions."
 	/>
+	<meta property="og:image" content="/images/meta-preview.png" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="404 - Page Not Found | Rising Sun Solar Systems" />
+	<meta
+		name="twitter:description"
+		content="The page you're looking for was not found. Return to Rising Sun Solar Systems for solar and energy solutions."
+	/>
+	<meta name="twitter:image" content="/images/meta-preview.png" />
 </svelte:head>
 
 <div

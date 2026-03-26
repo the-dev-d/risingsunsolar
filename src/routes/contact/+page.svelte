@@ -27,7 +27,7 @@
 		property="og:description"
 		content="Get in touch with Rising Sun Solar Systems for solar, electrical, or security consultations. Located in Ayarkunnam, Kottayam. Call or WhatsApp us today."
 	/>
-	<meta property="og:image" content="/images/meta-preview.png" />
+	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.png" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -37,7 +37,7 @@
 		name="twitter:description"
 		content="Get in touch with Rising Sun Solar Systems for solar, electrical, or security consultations. Located in Ayarkunnam, Kottayam. Call or WhatsApp us today."
 	/>
-	<meta name="twitter:image" content="/images/meta-preview.png" />
+	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.png" />
 </svelte:head>
 
 <section class="py-20">

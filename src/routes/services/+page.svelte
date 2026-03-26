@@ -21,7 +21,7 @@
 		property="og:description"
 		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
 	/>
-	<meta property="og:image" content="/images/meta-preview.png" />
+	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.png" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -34,7 +34,7 @@
 		name="twitter:description"
 		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
 	/>
-	<meta name="twitter:image" content="/images/meta-preview.png" />
+	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.png" />
 </svelte:head>
 
 <section class="relative w-full overflow-hidden px-12 py-20">

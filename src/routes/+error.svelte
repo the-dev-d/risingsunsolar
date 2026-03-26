@@ -15,7 +15,7 @@
 		property="og:description"
 		content="The page you're looking for was not found. Return to Rising Sun Solar Systems for solar and energy solutions."
 	/>
-	<meta property="og:image" content="/images/meta-preview.png" />
+	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.png" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -24,7 +24,7 @@
 		name="twitter:description"
 		content="The page you're looking for was not found. Return to Rising Sun Solar Systems for solar and energy solutions."
 	/>
-	<meta name="twitter:image" content="/images/meta-preview.png" />
+	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.png" />
 </svelte:head>
 
 <div

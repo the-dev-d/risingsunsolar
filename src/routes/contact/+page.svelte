@@ -15,11 +15,18 @@
 
 <svelte:head>
 	<title>Contact Us | Rising Sun Solar Systems</title>
+	<meta name="title" content="Contact Us | Rising Sun Solar Systems" />
 	<meta
 		name="description"
 		content="Get in touch with Rising Sun Solar Systems for solar, electrical, or security consultations. Located in Ayarkunnam, Kottayam. Call or WhatsApp us today."
 	/>
 	<link rel="canonical" href="https://risingsunsolar.in/contact" />
+	<meta property="og:url" content="https://risingsunsolar.in/contact" />
+	<meta property="og:title" content="Contact Us | Rising Sun Solar Systems" />
+	<meta
+		property="og:description"
+		content="Get in touch with Rising Sun Solar Systems for solar, electrical, or security consultations. Located in Ayarkunnam, Kottayam. Call or WhatsApp us today."
+	/>
 </svelte:head>
 
 <section class="py-20">

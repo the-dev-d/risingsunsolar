@@ -15,13 +15,7 @@
 	/>
 
 	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://risingsunsolar.in/" />
-	<meta property="og:title" content="Rising Sun Solar Systems | Solar, Electrical & Security" />
-	<meta
-		property="og:description"
-		content="Leading provider of solar power, automation, and electrical solutions in Kerala since 1997. MNRE Approved and PWD Licensed."
-	/>
 	<meta property="og:image" content="/images/meta-preview.png" />
 
 	<!-- Twitter -->

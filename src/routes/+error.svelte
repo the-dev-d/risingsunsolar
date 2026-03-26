@@ -3,6 +3,20 @@
 	import { Button } from '$lib/shadcn/ui/button';
 </script>
 
+<svelte:head>
+	<title>404 - Page Not Found | Rising Sun Solar Systems</title>
+	<meta name="title" content="404 - Page Not Found | Rising Sun Solar Systems" />
+	<meta
+		name="description"
+		content="The page you're looking for was not found. Return to Rising Sun Solar Systems for solar and energy solutions."
+	/>
+	<meta property="og:title" content="404 - Page Not Found | Rising Sun Solar Systems" />
+	<meta
+		property="og:description"
+		content="The page you're looking for was not found. Return to Rising Sun Solar Systems for solar and energy solutions."
+	/>
+</svelte:head>
+
 <div
 	class="mt-20 flex min-h-[70vh] flex-col items-center justify-center space-y-8 px-6 text-center"
 >

@@ -12,6 +12,15 @@
 		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
 	/>
 	<link rel="canonical" href="https://risingsunsolar.in/services" />
+	<meta property="og:url" content="https://risingsunsolar.in/services" />
+	<meta
+		property="og:title"
+		content="Complete Energy & Security Services in Kerala | Rising Sun Solar"
+	/>
+	<meta
+		property="og:description"
+		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
+	/>
 </svelte:head>
 
 <section class="relative w-full overflow-hidden px-12 py-20">

@@ -1,0 +1,1 @@
+import{F as o,h as a,G as t,H as c,x as l}from"./CniJUWAY.js";function f(n){t===null&&o(),c&&t.l!==null?u(t).m.push(n):a(()=>{const e=l(n);if(typeof e=="function")return e})}function u(n){var e=n.l;return e.u??={a:[],b:[],m:[]}}export{f as o};

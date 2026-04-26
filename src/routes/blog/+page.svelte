@@ -26,6 +26,11 @@
 					<article
 						class="flex h-full flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md"
 					>
+						{#if blog.banner}
+							<div class="h-48 w-full overflow-hidden">
+								<img src="/images/{blog.banner}" alt={blog.title} class="h-full w-full object-cover transition-transform duration-300 hover:scale-105" />
+							</div>
+						{/if}
 						<div class="flex flex-1 flex-col p-6">
 							<div class="mb-4 flex items-center text-sm text-gray-500">
 								<svg

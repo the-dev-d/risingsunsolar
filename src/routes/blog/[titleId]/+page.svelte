@@ -58,6 +58,12 @@
 			</h1>
 		</div>
 
+		{#if data.blog.banner}
+			<div class="mb-10 w-full overflow-hidden rounded-2xl shadow-sm">
+				<img src="/images/{data.blog.banner}" alt={data.blog.title} class="w-full h-auto max-h-[500px] object-cover" />
+			</div>
+		{/if}
+
 		<div class="mx-auto prose prose-lg text-gray-700 prose-p:m-3">
 			{@html marked.parse(data.blog.content)}
 		</div>

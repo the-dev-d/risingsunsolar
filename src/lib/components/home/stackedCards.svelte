@@ -4,11 +4,11 @@
 	let { headless = false } = $props();
 
 	const cards = [
-		{ id: 1, image: '/images/products/adani.jpg', alt: 'Adani Solar' },
-		{ id: 2, image: '/images/products/emmvee.jpg', alt: 'Emmvee Solar' },
-		{ id: 3, image: '/images/products/N-Type.jpg', alt: 'Gautam Solar N-Type' },
-		{ id: 4, image: '/images/products/Microtek.jpg', alt: 'Microtek' },
-		{ id: 5, image: '/images/products/Eastman.jpg', alt: 'Eastman' }
+		{ id: 1, image: '/images/products/adani.webp', alt: 'Adani Solar' },
+		{ id: 2, image: '/images/products/emmvee.webp', alt: 'Emmvee Solar' },
+		{ id: 3, image: '/images/products/N-Type.webp', alt: 'Gautam Solar N-Type' },
+		{ id: 4, image: '/images/products/Microtek.webp', alt: 'Microtek' },
+		{ id: 5, image: '/images/products/Eastman.webp', alt: 'Eastman' }
 	];
 
 	let cardOrder = $state([0, 1, 2, 3, 4]); // Indices of cards in display order (top to bottom)

@@ -21,7 +21,7 @@
 		property="og:description"
 		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
 	/>
-	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.png" />
+	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.webp" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -34,7 +34,7 @@
 		name="twitter:description"
 		content="From advanced solar systems to intelligent surveillance, we provide end-to-end CCTV & Security services in Kerala. Expert installation for solar, electrical, and gate automation."
 	/>
-	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.png" />
+	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.webp" />
 </svelte:head>
 
 <section class="relative w-full overflow-hidden px-12 py-20">
@@ -75,7 +75,7 @@
 				]}
 				bg="bg-buttons-orange/24"
 				fg="text-buttons-orange"
-				image="images/products/solar.jpeg"
+				image="images/products/solar.webp"
 				icon={Sun}
 			>
 				<p class="text-sm text-text-green italic">
@@ -97,7 +97,7 @@
 				]}
 				bg="bg-buttons-blue"
 				fg="text-white"
-				image="images/products/Electric.jpeg"
+				image="images/products/Electric.webp"
 				icon={Zap}
 				reverse
 			/>
@@ -115,7 +115,7 @@
 				]}
 				bg="bg-buttons-grey"
 				fg="text-white"
-				image="images/products/Cam.jpeg"
+				image="images/products/Cam.webp"
 				icon={Shield}
 			/>
 
@@ -132,7 +132,7 @@
 				]}
 				bg="bg-buttons-muted"
 				fg="text-buttons-default"
-				image="images/products/Gate.jpeg"
+				image="images/products/Gate.webp"
 				icon={DoorOpen}
 				reverse
 			/>
@@ -149,7 +149,7 @@
 				]}
 				bg="bg-buttons-orange/24"
 				fg="text-buttons-orange"
-				image="images/products/SolarW.jpeg"
+				image="images/products/SolarW.webp"
 				icon={Droplets}
 			/>
 		</div>

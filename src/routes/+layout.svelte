@@ -16,7 +16,7 @@
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:url" content="https://risingsunsolar.in/" />
-	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.png" />
+	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.webp" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -26,7 +26,7 @@
 		name="twitter:description"
 		content="Integrated solar, electrical, and security solutions in Kottayam, Kerala. Trusted since 1997."
 	/>
-	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.png" />
+	<meta name="twitter:image" content="https://risingsunsolar.in/images/meta-preview.webp" />
 
 	<link rel="icon" href={favicon} />
 

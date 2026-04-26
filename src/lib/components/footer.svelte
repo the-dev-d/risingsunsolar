@@ -7,7 +7,7 @@
 		<div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
 			<div>
 				<div class="flex items-center gap-3">
-					<img src="/images/logo.png" alt="RisingSun" class="h-18 w-18" />
+					<img src="/images/logo.webp" alt="RisingSun" class="h-18 w-18" />
 					<span class="text-xl font-semibold">RisingSun</span>
 				</div>
 
@@ -92,6 +92,7 @@
 					<li><a href="/" class="transition-colors hover:text-white">Home</a></li>
 					<li><a href="/about" class="transition-colors hover:text-white">About Us</a></li>
 					<li><a href="/services" class="transition-colors hover:text-white">Our Services</a></li>
+					<li><a href="/blog" class="transition-colors hover:text-white">Our Blog</a></li>
 					<li><a href="/contact" class="transition-colors hover:text-white">Contact</a></li>
 				</ul>
 			</div>

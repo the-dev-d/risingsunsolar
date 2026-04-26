@@ -13,12 +13,13 @@
 >
 	<div class="mx-auto flex h-fit max-w-7xl items-center justify-between px-6 py-2">
 		<a class="flex h-16 items-center" href="/">
-			<img src="/images/logo.png" alt="logo" class="h-full w-auto object-contain" />
+			<img src="/images/logo.webp" alt="logo" class="h-full w-auto object-contain" />
 		</a>
 
 		<div class="hidden items-center gap-8 md:flex">
 			<a href="/services" class=" text-sm text-text-green transition-colors"> Services </a>
 			<a href="/about" class=" text-sm text-text-green transition-colors"> About </a>
+			<a href="/blog" class=" text-sm text-text-green transition-colors"> Blog </a>
 			<a href="/contact" class=" text-sm text-text-green transition-colors"> Contact </a>
 		</div>
 
@@ -73,7 +74,7 @@
 	<div class="flex h-full flex-col px-6 py-3">
 		<div class="mb-8 flex items-center justify-between">
 			<a class="flex h-16 items-center" href="/">
-				<img src="/images/logo.png" alt="logo" class="h-full w-auto object-contain" />
+				<img src="/images/logo.webp" alt="logo" class="h-full w-auto object-contain" />
 			</a>
 			<button on:click={() => (open = false)}>
 				<X class="h-6 w-6" />
@@ -84,6 +85,7 @@
 			<a href="/services" on:click={() => (open = false)}>Services</a>
 			<!-- <a href="#features" on:click={() => (open = false)}>Features</a> -->
 			<a href="/about" on:click={() => (open = false)}>About</a>
+			<a href="/blog" on:click={() => (open = false)}>Blog</a>
 			<a href="/contact" on:click={() => (open = false)}>Contact</a>
 		</nav>
 

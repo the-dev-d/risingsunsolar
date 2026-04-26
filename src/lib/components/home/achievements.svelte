@@ -12,7 +12,7 @@
 			></div>
 
 			<img
-				src="/images/positionaward.png"
+				src="/images/positionaward.webp"
 				alt="Ranked 3rd Award"
 				class="relative h-72 w-auto object-contain transition-all duration-700 group-hover:scale-110"
 				style="filter: drop-shadow(0 20px 50px rgba(0,0,0,0.2)) contrast(1.05) brightness(1.02);"

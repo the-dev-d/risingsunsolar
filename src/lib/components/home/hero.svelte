@@ -4,9 +4,9 @@
 	import { Leaf } from '@lucide/svelte';
 
 	const images = [
-		'/images/solarHero.jpg',
-		'/images/solarPannelAlt.png',
-		'/images/solarRisingSun.jpg'
+		'/images/solarHero.webp',
+		'/images/solarPannelAlt.webp',
+		'/images/solarRisingSun.webp'
 	];
 
 	const plugin = Autoplay({

@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-	<title>Rising Sun Solar Systems | Solar & Energy Solutions Kottayam</title>
+	<title>Leading Solar Panel Installation Company Kerala | Solar & Energy Solutions Kottayam</title>
 	<meta name="title" content="Leading Solar Panel Installation Company Kerala" />
 	<meta
 		name="description"

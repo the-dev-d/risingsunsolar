@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Rising Sun Solar Systems | Solar, Electrical & Security Solutions Kottayam</title>
+	<title>Leading Solar Panel Installation Company Kerala</title>
 	<meta
 		name="description"
 		content="Trusted solar energy, electrical, and security solutions in Kottayam, Kerala. Established in 1997, MNRE Approved agency providing integrated power and security systems."

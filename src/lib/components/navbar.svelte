@@ -1,6 +1,7 @@
 <script>
 	import Button from '$lib/shadcn/ui/button/button.svelte';
-	import { Menu, X } from '@lucide/svelte';
+	import Menu from '@lucide/svelte/icons/menu';
+	import X from '@lucide/svelte/icons/x';
 
 	let open = false;
 

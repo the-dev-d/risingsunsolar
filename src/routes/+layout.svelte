@@ -17,7 +17,7 @@
 	<!-- Open Graph / Facebook -->
 	<meta property="og:url" content="https://risingsunsolar.in/" />
 	<meta property="og:image" content="https://risingsunsolar.in/images/meta-preview.webp" />
-
+	<meta name="p:domain_verify" content="bcab376612d6afe0c0afa546483ad9d0"/>
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:url" content="https://risingsunsolar.in/" />

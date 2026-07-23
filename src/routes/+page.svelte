@@ -1,6 +1,10 @@
 <script lang="ts">
 	import AOS from 'aos';
-	import { Sun, Shield, Leaf, Phone, ArrowUpRight } from '@lucide/svelte';
+	import Sun from '@lucide/svelte/icons/sun';
+	import Shield from '@lucide/svelte/icons/shield';
+	import Leaf from '@lucide/svelte/icons/leaf';
+	import Phone from '@lucide/svelte/icons/phone';
+	import ArrowUpRight from '@lucide/svelte/icons/arrow-up-right';
 	import Button from '$lib/shadcn/ui/button/button.svelte';
 	import Hero from '$lib/components/home/hero.svelte';
 	import About from '$lib/components/home/about.svelte';

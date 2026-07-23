@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { Button } from '$lib/shadcn/ui/button';
 	import ValueCard from '$lib/components/about/valueCard.svelte';
-	import { Leaf, Eye, Heart } from 'lucide-svelte';
+	import Leaf from '@lucide/svelte/icons/leaf';
+	import Eye from '@lucide/svelte/icons/eye';
+	import Heart from '@lucide/svelte/icons/heart';
 </script>
 
 <svelte:head>

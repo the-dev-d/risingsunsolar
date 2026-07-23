@@ -1,5 +1,6 @@
 <script>
-	import { ChevronUp, ChevronDown } from '@lucide/svelte';
+	import ChevronUp from '@lucide/svelte/icons/chevron-up';
+	import ChevronDown from '@lucide/svelte/icons/chevron-down';
 
 	let { headless = false } = $props();
 

@@ -4,7 +4,13 @@
 	import { Progress } from '$lib/shadcn/ui/progress';
 	import Feature from './feature.svelte';
 
-	import { Check, Zap, Shield, Wrench, Clock, Headphones, BadgeCheck } from '@lucide/svelte';
+	import Check from '@lucide/svelte/icons/check';
+	import Zap from '@lucide/svelte/icons/zap';
+	import Shield from '@lucide/svelte/icons/shield';
+	import Wrench from '@lucide/svelte/icons/wrench';
+	import Clock from '@lucide/svelte/icons/clock';
+	import Headphones from '@lucide/svelte/icons/headphones';
+	import BadgeCheck from '@lucide/svelte/icons/badge-check';
 </script>
 
 <section class="relative mx-auto max-w-7xl px-8 py-20 md:py-24">

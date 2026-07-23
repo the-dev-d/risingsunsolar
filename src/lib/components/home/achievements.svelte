@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Check } from 'lucide-svelte';
+	import Check from '@lucide/svelte/icons/check';
 </script>
 
 <section class="relative mx-auto w-full max-w-7xl px-8 py-20" data-aos="fade-up">

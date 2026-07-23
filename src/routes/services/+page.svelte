@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { Button } from '$lib/shadcn/ui/button';
 	import Service from '$lib/components/services/service.svelte';
-	import { Sun, Zap, Shield, DoorOpen, Droplets } from '@lucide/svelte';
+	import Sun from '@lucide/svelte/icons/sun';
+	import Zap from '@lucide/svelte/icons/zap';
+	import Shield from '@lucide/svelte/icons/shield';
+	import DoorOpen from '@lucide/svelte/icons/door-open';
+	import Droplets from '@lucide/svelte/icons/droplets';
 </script>
 
 <svelte:head>

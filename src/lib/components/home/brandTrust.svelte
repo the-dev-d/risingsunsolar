@@ -1,6 +1,7 @@
 <script lang="ts">
 	import StackedCards from './stackedCards.svelte';
-	import { Zap, Award } from 'lucide-svelte';
+	import Zap from '@lucide/svelte/icons/zap';
+	import Award from '@lucide/svelte/icons/award';
 </script>
 
 <section class="relative mx-auto w-full max-w-7xl px-8 py-20 md:py-32" data-aos="fade-up">

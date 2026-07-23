@@ -1,5 +1,7 @@
 <script>
-	import { Facebook, Instagram, Linkedin } from '@lucide/svelte';
+	import Facebook from '@lucide/svelte/icons/facebook';
+	import Instagram from '@lucide/svelte/icons/instagram';
+	import Linkedin from '@lucide/svelte/icons/linkedin';
 </script>
 
 <footer class="bg-footer-background text-white">

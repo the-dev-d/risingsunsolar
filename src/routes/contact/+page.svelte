@@ -1,16 +1,14 @@
 <script lang="ts">
 	import { Button } from '$lib/shadcn/ui/button';
 	import { Card, CardContent, CardHeader, CardTitle } from '$lib/shadcn/ui/card';
-	import {
-		Phone,
-		Mail,
-		MapPin,
-		Clock,
-		Facebook,
-		Instagram,
-		Linkedin,
-		MessageCircle
-	} from '@lucide/svelte';
+	import Phone from '@lucide/svelte/icons/phone';
+	import Mail from '@lucide/svelte/icons/mail';
+	import MapPin from '@lucide/svelte/icons/map-pin';
+	import Clock from '@lucide/svelte/icons/clock';
+	import Facebook from '@lucide/svelte/icons/facebook';
+	import Instagram from '@lucide/svelte/icons/instagram';
+	import Linkedin from '@lucide/svelte/icons/linkedin';
+	import MessageCircle from '@lucide/svelte/icons/message-circle';
 </script>
 
 <svelte:head>

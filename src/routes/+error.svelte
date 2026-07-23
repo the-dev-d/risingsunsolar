@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { Sun, ArrowLeft } from 'lucide-svelte';
+	import Sun from '@lucide/svelte/icons/sun';
+	import ArrowLeft from '@lucide/svelte/icons/arrow-left';
 	import { Button } from '$lib/shadcn/ui/button';
 </script>
 

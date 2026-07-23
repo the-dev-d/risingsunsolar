@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Autoplay from 'embla-carousel-autoplay';
 	import * as Carousel from '$lib/shadcn/ui/carousel/index.js';
-	import { Leaf } from '@lucide/svelte';
+	import Leaf from '@lucide/svelte/icons/leaf';
 
 	const images = [
 		'/images/solarHero.webp',
